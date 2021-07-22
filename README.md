@@ -1,3 +1,3 @@
 # Simple JavaScript image slider #
 
-**More information to come**
+** More information to come **
