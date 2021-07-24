@@ -8,8 +8,8 @@
 
 body {
     min-height: 100vh;
-    background-color: grey;
     position: relative;
+    background-color: #323236;
 }
 
 .main-container {
@@ -19,18 +19,16 @@ body {
     transform: translate(-50%, -50%);
     width: 80%;
     height: 80%;
-    background-color: cornflowerblue;
-    border: 3px solid red;
     overflow: hidden;
 
     .images-slider {
         width: 100%;
         height: 100%;
         display: flex;
-        transition: all 400ms ease;
-    
+        
         img {
             width: 100%;
+            object-fit: cover;
         }
     }
 }
