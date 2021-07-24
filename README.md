@@ -7,6 +7,6 @@ This project was built in order to practice the creation of code for this type o
 
 ## Technologies ##
 This project was made with:
-* HTML
-* SASS
 * Vanilla JavaScript
+* SASS
+* HTML
