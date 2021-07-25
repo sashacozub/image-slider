@@ -1,0 +1,45 @@
+@media screen and (max-width: 1024px) {
+    #btn-left,
+    #btn-right {
+        width: 7%;
+
+        &:hover {
+            width: 9%;
+        }
+
+        &:active {
+            width: 7%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    #btn-left,
+    #btn-right {
+        width: 9%;
+
+        &:hover {
+            width: 11%;
+        }
+
+        &:active {
+            width: 9%;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .main-container {
+        width: 100%;
+        height: 100%;
+    }
+}
