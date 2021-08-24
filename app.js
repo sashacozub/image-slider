@@ -16,10 +16,13 @@ let sliderSize = slider.clientWidth;
 
 // Set counter to first image and not the clone of the last image
 let counter = 1;
-slider.style.transform = `translateX(${-sliderSize * counter}px)`;
-// Assign the active dot to the first image
-dots[counter - 1].appendChild(activeDot);
 
+//Set the slider to the first image when page loads
+window.addEventListener('load', () => {
+    slider.style.transform = `translateX(${-sliderSize * counter}px)`;
+    // Assign the active dot to the first image
+    dots[counter - 1].appendChild(activeDot);
+})
 
 // Slide to previous image
 buttonLeft.addEventListener('click', () => {
@@ -76,3 +79,4 @@ window.addEventListener('resize', () => {
     sliderSize = slider.clientWidth;
     slider.style.transform = `translateX(${-sliderSize * counter}px)`;
 })
+
